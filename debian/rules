@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+
+UPSTREAM_GIT = git://github.com/choffmeister/roboto-fontface-bower.git
+-include /usr/share/openstack-pkg-tools/pkgos.make
+
+%:
+	dh $@
+
+override_dh_install:
+	dh_install
+
+	# Make a symlink of all fonts in /usr/share/fonts-materialdesignicons-webfont/fonts
+	# and fix the x flag
+	mkdir -p debian/fonts-materialdesignicons-webfont/usr/share/fonts-materialdesignicons-webfont/fonts
+	for i in truetype eot svg woff ; do \
+		for j in `find debian/fonts-materialdesignicons-webfont/usr/share/fonts/$$i/materialdesignicons-webfont -type f` ; do \
+			FNTFILE=`basename $$j` ; \
+			ln -s ../../fonts/$$i/materialdesignicons-webfont/$$FNTFILE debian/fonts-materialdesignicons-webfont/usr/share/fonts-materialdesignicons-webfont/fonts/$$FNTFILE ; \
+			echo $$j ; \
+		done ; \
+	done

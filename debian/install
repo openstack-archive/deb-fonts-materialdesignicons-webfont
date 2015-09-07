@@ -1,0 +1,5 @@
+fonts/*.ttf	/usr/share/fonts/truetype/materialdesignicons-webfont
+fonts/*.eot	/usr/share/fonts/eot/materialdesignicons-webfont
+fonts/*.svg	/usr/share/fonts/svg/materialdesignicons-webfont
+fonts/*.woff*	/usr/share/fonts/woff/materialdesignicons-webfont
+css/*		/usr/share/fonts-materialdesignicons-webfont/css

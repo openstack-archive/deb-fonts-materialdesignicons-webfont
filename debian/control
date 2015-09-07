@@ -1,0 +1,22 @@
+Source: fonts-materialdesignicons-webfont
+Section: fonts
+Priority: extra
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper (>= 9),
+Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/openstack/fonts-materialdesignicons-webfont.git
+Vcs-Git: git://anonscm.debian.org/openstack/fonts-materialdesignicons-webfont.git
+Homepage: https://github.com/Templarian/MaterialDesign-Webfont
+
+Package: fonts-materialdesignicons-webfont
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: font containing Material Design Icons
+ Material Design Icons' growing icon collection allows designers and developers
+ targeting various platforms to download icons in the format, color and size
+ they need for any project. This font contains icons form this collection.
+ .
+ This package also provides Css, Scss and LESS files to use webfonts from this
+ package.
