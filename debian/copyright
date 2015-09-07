@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: roboto-fontface-bower
+Upstream-Name: MaterialDesign-Webfont
 Source: git://github.com/Templarian/MaterialDesign-Webfont.git
 
 Files: debian/*
