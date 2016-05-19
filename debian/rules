@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-UPSTREAM_GIT = git://github.com/Templarian/MaterialDesign-Webfont.git
+UPSTREAM_GIT := https://github.com/Templarian/MaterialDesign-Webfont.git
 -include /usr/share/openstack-pkg-tools/pkgos.make
 
 %:
