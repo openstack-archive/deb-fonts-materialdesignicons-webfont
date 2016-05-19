@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: MaterialDesign-Webfont
-Source: git://github.com/Templarian/MaterialDesign-Webfont.git
+Source: https://github.com/Templarian/MaterialDesign-Webfont
 
 Files: debian/*
 Copyright: (c) 2015, Thomas Goirand <zigo@debian.org>
