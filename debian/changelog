@@ -1,10 +1,14 @@
-fonts-materialdesignicons-webfont (1.1.70-3) UNRELEASED; urgency=medium
+fonts-materialdesignicons-webfont (1.4.57-1) unstable; urgency=medium
 
+  [ Ondřej Nový ]
   * Fixed VCS URLs (https).
   * d/rules: Changed UPSTREAM_GIT protocol to https
   * d/copyright: Changed source URL to https protocol
 
- -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:24:48 +0100
+  [ Ivan Udovichenko ]
+  * Package new version.
+
+ -- Ivan Udovichenko <iudovichenko@mirantis.com>  Sun, 12 Jun 2016 22:29:32 +0300
 
 fonts-materialdesignicons-webfont (1.1.70-2) unstable; urgency=medium
 
