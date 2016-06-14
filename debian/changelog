@@ -1,4 +1,4 @@
-fonts-materialdesignicons-webfont (1.4.57-1) unstable; urgency=medium
+fonts-materialdesignicons-webfont (1.4.57-2) unstable; urgency=medium
 
   [ Ondřej Nový ]
   * Fixed VCS URLs (https).
@@ -8,7 +8,10 @@ fonts-materialdesignicons-webfont (1.4.57-1) unstable; urgency=medium
   [ Ivan Udovichenko ]
   * Package new version.
 
- -- Ivan Udovichenko <iudovichenko@mirantis.com>  Sun, 12 Jun 2016 22:29:32 +0300
+  [ Thomas Goirand ]
+  * Added Ivan as uploaders:.
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 14 Jun 2016 09:20:46 +0000
 
 fonts-materialdesignicons-webfont (1.1.70-2) unstable; urgency=medium
 
