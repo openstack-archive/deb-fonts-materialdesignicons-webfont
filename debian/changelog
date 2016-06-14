@@ -1,4 +1,4 @@
-fonts-materialdesignicons-webfont (1.4.57-2) unstable; urgency=medium
+fonts-materialdesignicons-webfont (1.4.57-1) unstable; urgency=medium
 
   [ Ondřej Nový ]
   * Fixed VCS URLs (https).
