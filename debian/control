@@ -6,8 +6,8 @@ Uploaders: Thomas Goirand <zigo@debian.org>,
            Ivan Udovichenko <iudovichenko@mirantis.com>,
 Build-Depends: debhelper (>= 9),
 Standards-Version: 3.9.8
-Vcs-Browser: https://anonscm.debian.org/cgit/openstack/fonts-materialdesignicons-webfont.git/
-Vcs-Git: https://anonscm.debian.org/git/openstack/fonts-materialdesignicons-webfont.git
+Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-fonts-materialdesignicons-webfont?h=debian%2Fnewton
+Vcs-Git: https://git.openstack.org/openstack/deb-fonts-materialdesignicons-webfont -b debian/newton
 Homepage: https://github.com/Templarian/MaterialDesign-Webfont
 
 Package: fonts-materialdesignicons-webfont
