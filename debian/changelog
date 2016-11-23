@@ -2,6 +2,7 @@ fonts-materialdesignicons-webfont (1.4.57-2) UNRELEASED; urgency=medium
 
   * d/s/options: extend-diff-ignore of .gitreview
   * d/control: Using OpenStack's Gerrit as VCS URLs.
+  * Bumped debhelper compat version to 10
 
  -- Ondřej Nový <onovy@debian.org>  Mon, 26 Sep 2016 19:01:55 +0200
 
